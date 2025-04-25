@@ -89,6 +89,8 @@ const HomeHeroSection = () => {
     <Star className="h-4 w-4 text-orange-300 fill-current" />
     <Star className="h-4 w-4 text-orange-300 fill-current" />
     <Star className="h-4 w-4 text-orange-300 fill-current" />
+    <Star className="h-4 w-4 text-orange-300 fill-current" />
+
   </div>
 
 
