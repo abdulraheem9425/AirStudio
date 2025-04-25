@@ -20,7 +20,7 @@ const HomeHeroSection = () => {
   Empowering Businesses,
 </h1>
 
-<h1 className="text-center text-amber-500 font-bold lg:text-5xl font-medium   sm: text-3xl font-medium ">
+<h1 className="text-center text-amber-500 font-bold lg:text-5xl font-sans   sm: text-3xl font-medium ">
   Elevating Commerce
 </h1>
 
