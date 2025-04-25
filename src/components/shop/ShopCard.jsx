@@ -76,7 +76,7 @@ const ShopCard = () => {
                 <img
                   src={product.img}
                   alt={product.name}
-                  className="object-cover h-full w-full"
+                  className="lg:object-cover h-full w-full"
                 />
               </div>
               <div className="px-4 py-3">

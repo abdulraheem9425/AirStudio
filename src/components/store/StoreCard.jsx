@@ -28,7 +28,7 @@ const StoreCard = () => {
           <img
             src={product.img}
             alt={product.name}
-            className="w-full h-auto overflow-hidden "
+            className="w-full h-auto overflow-hidden  "
           />
           <h3 className="  relative bottom-5  leading-3  gap-2 font-bold font-serif text-2xl py-3">
             {product.name}
