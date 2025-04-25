@@ -1,0 +1,26 @@
+import React from "react";
+import { ChevronDown } from "lucide-react";
+
+function ThreeFactor() {
+  return (
+    <div className="grid grid-cols-1 items-start max-w-3xl shadow-xl  lg:w-190   mx-auto  space-y-4 mt-10 mb-10 ">
+      
+      <div className="flex items-center shadow-sm p-4 rounded-md bg-white w-full">
+        <span className="ml-4 flex-1 text-md font-medium">All Address</span>
+      </div>
+
+      <div className="p-4 rounded-md shadow-sm bg-white w-full">
+        <span className="text-base font-medium">Add new Adress</span>
+      </div>
+ <div className="flex items-center mt-2 shadow-sm  p-4 rounded-md bg-white w-full">
+        <span className="text-lg font-semibold">3.</span>
+        <span className="ml-4 flex-1 text-md font-medium">Manage Address</span>
+        <ChevronDown size={20} />
+      </div>
+
+      
+    </div>
+  );
+}
+
+export default ThreeFactor;
