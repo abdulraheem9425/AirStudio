@@ -49,7 +49,7 @@ const DetailDescription = () => {
           <ul className="space-y-4">
             <li className="flex items-start gap-3">
               <img
-                src="/public/assets/images/Border.png"
+                src="/assets/images/Border.png"
                 alt="Wash"
                 className="w-6 h-6 mt-1"
               />
@@ -57,7 +57,7 @@ const DetailDescription = () => {
             </li>
             <li className="flex items-start gap-3">
               <img
-                src="/public/assets/images/Border1.png"
+                src="/assets/images/Border1.png"
                 alt="Iron"
                 className="w-5 h-5 mt-1"
               />
@@ -65,7 +65,7 @@ const DetailDescription = () => {
             </li>
             <li className="flex items-start gap-3">
               <img
-                src="/public/assets/images/Border2.png"
+                src="/assets/images/Border2.png"
                 alt="No bleach"
                 className="w-5 h-5 mt-1"
               />
@@ -73,7 +73,7 @@ const DetailDescription = () => {
             </li>
             <li className="flex items-start gap-3">
               <img
-                src="/public/assets/images/Border3.png"
+                src="/assets/images/Border3.png"
                 alt="No dry clean"
                 className="w-5 h-5 mt-1"
               />
@@ -81,7 +81,7 @@ const DetailDescription = () => {
             </li>
             <li className="flex items-start gap-3">
               <img
-                src="/public/assets/images/Border4.png"
+                src="/assets/images/Border4.png"
                 alt="Tumble dry"
                 className="w-5 h-5 mt-1"
               />

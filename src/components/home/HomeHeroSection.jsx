@@ -5,11 +5,11 @@ const HomeHeroSection = () => {
   return (
     <div className="grid grid-cols-12 gap-2 md:px-10 lg:px-20 py-12 bg-white sm:py-10">
       <div className="col-span-2  h-[500px] hidden lg:block justify-between">
-      <img src="/public/assets/images/shop/lefts.png" className='relative left-50 bottom-5 w-9 h-15 w-15   ' alt="" />
+      <img src="/assets/images/shop/lefts.png" className='relative left-50 bottom-5 w-9 h-15 w-15   ' alt="" />
 
 
         <img
-          src="/public/assets/images/hero.png"
+          src="/assets/images/hero.png"
           className=" relative bottom-25 right-5  h-70 max-w-max"
           alt=""
         />
@@ -34,7 +34,7 @@ const HomeHeroSection = () => {
         </p>
         
         <div className="sm:col-end-3 hidden lg:block absolute right-75  ">
-        <img src="/public/assets/images/shop/hand.png" className='relative bottom-30 left-17 h-20' alt="" />
+        <img src="/assets/images/shop/hand.png" className='relative bottom-30 left-17 h-20' alt="" />
 
         </div>
         <div>
@@ -56,27 +56,27 @@ const HomeHeroSection = () => {
 
   <div className="flex items-center">
     <img
-      src="/public/assets/images/circle.png"
+      src="/assets/images/circle.png"
       alt=""
       className="w-6 h-6 z-40"
     />
     <img
-      src="/public/assets/images/circle.png"
+      src="/assets/images/circle.png"
       alt=""
       className="w-6 h-6 -ml-2 z-30"
     />
     <img
-      src="/public/assets/images/circle.png"
+      src="/assets/images/circle.png"
       alt=""
       className="w-6 h-6 -ml-2 z-20"
     />
     <img
-      src="/public/assets/images/circle.png"
+      src="/assets/images/circle.png"
       alt=""
       className="w-6 h-6 -ml-2 z-10"
     />
     <img
-      src="/public/assets/images/circle.png"
+      src="/assets/images/circle.png"
       alt=""
       className="w-6 h-6 -ml-2 z-0"
     />
@@ -99,7 +99,7 @@ const HomeHeroSection = () => {
 
       <div className="col-span-2 h-[500px] hidden lg:block">
         <img
-          src="/public/assets/images/hero1.png"
+          src="/assets/images/hero1.png"
           className="h-50  w-200  relative bottom-15 "
           alt=""
         />

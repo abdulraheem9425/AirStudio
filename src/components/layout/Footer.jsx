@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         <div>
           <img
-            src="/public/assets/images/footer.png"
+            src="/assets/images/footer.png"
             alt="Logo"
             className="w-30 mb-4"
           />

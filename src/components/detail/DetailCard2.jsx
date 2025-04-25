@@ -4,18 +4,18 @@ import React from "react";
 const DeatailCard2 = () => {
   const products = [
     {
-      img: "/public/assets/images/Minimal.png",
+      img: "/assets/images/Minimal.png",
       name: "Minimal Dress",
       price: 130,
     },
     {
-      img: "/public/assets/images/Essentail.png",
+      img: "/assets/images/Essentail.png",
       name: "Essentail Set",
       price: 109,
     },
 
     {
-      img: "/public/assets/images/classic.png",
+      img: "/assets/images/classic.png",
       name: "Classic Dress",
       price: 89,
     },

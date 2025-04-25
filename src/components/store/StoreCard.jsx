@@ -3,20 +3,20 @@ import React from "react";
 
 const StoreCard = () => {
   const products = [
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
 
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
 
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
-    { img: "/public/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
+    { img: "/assets/images/store/box.png", name: "ABC" },
   ];
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:px-10 lg:px-35      sm:py-10">

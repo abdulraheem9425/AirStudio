@@ -23,7 +23,7 @@ function AccountEditForm() {
           <div className="relative w-20 h-20">
             <div className="bg-blue-100 text-blue-600 rounded-full w-full h-full flex items-center justify-center text-3xl">
               
-              <img src="/public/assets/images/Frame.png" alt="" />
+              <img src="/assets/images/Frame.png" alt="" />
             </div>
             <span className="absolute top-0 right-0 inline-block w-4 h-4 bg-red-500 border-2 border-white rounded-full"></span>
           </div>

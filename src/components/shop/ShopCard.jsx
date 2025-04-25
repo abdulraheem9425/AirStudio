@@ -4,47 +4,47 @@ import { Heart, ChevronUp } from "lucide-react";
 const ShopCard = () => {
   const Product = [
     {
-      img: "/public/assets/images/shop/card.png",
+      img: "/assets/images/shop/card.png",
       name: "Minimal Dress",
       price: 130,
     },
     {
-      img: "/public/assets/images/shop/card1.png",
+      img: "/assets/images/shop/card1.png",
       name: "Essentail Set",
       price: 109,
     },
     {
-      img: "/public/assets/images/shop/card2.png",
+      img: "/assets/images/shop/card2.png",
       name: "Classic Dress",
       price: 89,
     },
     {
-      img: "/public/assets/images/shop/card1.png",
+      img: "/assets/images/shop/card1.png",
       name: "Minimal Dress",
       price: 130,
     },
     {
-      img: "/public/assets/images/shop/card.png",
+      img: "/assets/images/shop/card.png",
       name: "Essentail Set",
       price: 109,
     },
     {
-      img: "/public/assets/images/shop/card1.png",
+      img: "/assets/images/shop/card1.png",
       name: "Minimal Dress",
       price: 130,
     },
     {
-      img: "/public/assets/images/shop/card1.png",
+      img: "/assets/images/shop/card1.png",
       name: "Classic Dress",
       price: 89,
     },
     {
-      img: "/public/assets/images/shop/card2.png",
+      img: "/assets/images/shop/card2.png",
       name: "Minimal Dress",
       price: 130,
     },
     {
-      img: "/public/assets/images/shop/card.png",
+      img: "/assets/images/shop/card.png",
       name: "Essentail Set",
       price: 109,
     },

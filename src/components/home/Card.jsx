@@ -5,28 +5,28 @@ import { Link } from "react-router-dom";
 const Card = () => {
   const products = [
     {
-      img: "/public/assets/images/Minimal.png",
+      img: "/assets/images/Minimal.png",
       name: "Minimal Dress",
       price: 130,
     },
     {
-      img: "/public/assets/images/Essentail.png",
+      img: "/assets/images/Essentail.png",
       name: "Essentail Set",
       price: 109,
     },
     {
-      img: "/public/assets/images/classic.png",
+      img: "/assets/images/classic.png",
       name: "Classic Dress",
       price: 89,
     },
     {
-      img: "/public/assets/images/Headphone.png",
+      img: "/assets/images/Headphone.png",
       name: "Headphone",
       price: 129,
     },
-    { img: "/public/assets/images/Apple.png", name: "Apple Watch", price: 499 },
+    { img: "/assets/images/Apple.png", name: "Apple Watch", price: 499 },
     {
-      img: "/public/assets/images/laptop.png",
+      img: "/assets/images/laptop.png",
       name: "Mac Book Pro",
       price: 1999,
     },
