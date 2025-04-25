@@ -45,7 +45,7 @@ const SalesItems = () => {
                 alt={item.title}
                 className="w-24 h-24 mx-auto object-contain mb-4"
               />
-              <h3 className=" flex font-bold text-gray-900 mb-">{item.title}</h3>
+              <h3 className=" flex font-bold text-gray-900 text-xl">{item.title}</h3>
               <p className=" flex text-gray-600 text-sm">{item.desc}</p>
             </div>
           ))}
