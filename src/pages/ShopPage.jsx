@@ -6,7 +6,7 @@ import ShopCard from "../components/shop/ShopCard";
 const ShopPage = () => {
   return (
     <>
-      <ShopHero />
+      <ShopHero  tittle="Shop"/>
       <ShopCard />
       <Waitlist />
     </>

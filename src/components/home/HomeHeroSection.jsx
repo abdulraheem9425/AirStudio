@@ -43,7 +43,7 @@ const HomeHeroSection = () => {
         </div>
         <div>
           <span className="flex flex-col sm:flex-row gap-6 mt-9 justify-center items-center">
-            <button className="bg-blue-600 rounded-full py-3 px-18 lg:px-10 text-white  lg:w-50 sm:w-60 ">
+            <button className="bg-blue-600 rounded-full py-2 px-18 lg:px-10 text-white  lg:w-50 sm:w-60 ">
               Shop Now!
             </button>
 

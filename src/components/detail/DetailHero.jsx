@@ -36,7 +36,7 @@ const DetailHero = () => {
         <div className="flex items-center gap-3 flex-wrap">
           <span className="text-2xl font-semibold text-orange-400">$16.95</span>
           <span className="text-2xl text-gray-400 line-through">$18.00</span>
-          <span className="bg-yellow-400 text-sm px-3 text-white py-1 rounded-full">20% OFF</span>
+          <span className="bg-yellow-500 text-sm px-3 text-white py-1 rounded-full">20% OFF</span>
         </div>
 
         <div className="flex items-center gap-3">
@@ -44,8 +44,8 @@ const DetailHero = () => {
           <span className="text-sm font-medium">People are viewing this right now</span>
         </div>
 
-        <div className="border border-orange-400 lg:p-4 rounded-md w-full max-w-xs sm:p-5">
-          <p className="font-semibold text-sm text-center">HURRY UP! SALE ENDS IN:</p>
+        <div className="border border-orange-400 lg:p-4   w-full max-w-xs sm:p-5">
+          <p className="font-semibold text-sm text-center"> <img src="/assets/images/watch.png" alt="" className=" relative  lg:relative top-4 left-7 " /> HURRY UP! SALE ENDS IN:</p>
           <div className="flex gap-2 mt-1 text-orange-500 font-semibold flex-wrap">
             <span>72 Days</span> : <span>1 Hour</span> : <span>15 Mins</span> : <span>10 Secs</span>
           </div>
@@ -77,7 +77,7 @@ const DetailHero = () => {
 
         <div>
           <h5 className="mb-1 font-bold">Quantity:</h5>
-          <div className="flex items-center justify-between bg-gray-200 w-32 rounded px-3 py-2 mx-auto sm:mx-0">
+          <div className=" flex items-center justify-between bg-gray-200 w-32 rounded px-3 py-2 mx-auto sm:mx-0 ">
             <img src="/assets/images/minus.png" alt="Minus" className="h-4 w-4" />
             <span className="font-medium">1</span>
             <img src="/assets/images/plus.png" alt="Plus" className="h-4 w-4" />
@@ -93,7 +93,7 @@ const DetailHero = () => {
           </div>
         </div>
 
-        <button className="bg-yellow-400 text-blue-950 font-semibold w-full py-3 rounded-full flex items-center justify-center lg:w-162 gap-2">
+        <button className="bg-yellow-500 text-blue-950 font-semibold w-full py-3 rounded-full flex items-center justify-center lg:w-162 gap-2">
           Buy with <span className="italic font-bold">Pay<span className="text-blue-600">Pal</span></span>
         </button>
         <a href="#" className="underline text-sm text-center">More payment options</a>
@@ -118,14 +118,14 @@ const DetailHero = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row lg:w-170 gap-4 mt-4">
-          <div className="p-4 rounded-md text-center w-full lg:w-1/2 shadow-md">
+          <div className="p-4 rounded-md text-center w-full lg:w-1/2 shadow-sm">
             <img src="/assets/images/ship.png" alt="Shipping" className="w-10 h-10 mx-auto mb-2" />
             <p className="text-sm">
               Estimate delivery times: <strong>12–26 days</strong> (International),
               <strong> 3–6 days</strong> (United <br/>States).
             </p>
           </div>
-          <div className="p-4 rounded-md text-center w-full lg:w-1/2 shadow-md">
+          <div className="p-4 rounded-md text-center w-full lg:w-1/2 shadow-sm">
             <img src="/assets/images/send.png" alt="Return" className="w-10 h-10 mx-auto mb-2" />
             <p className="text-sm">
               Return within <strong>30 days</strong> of purchase.

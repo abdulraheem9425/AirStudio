@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaDribbble } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-gray-700 px-6 md:px- py-12">
+    <footer className="bg-white text-gray-700 px-6 md:px-20 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 lg:relative left-8">
         <div>
           <img
@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="ml-10">
+        <div className="lg:ml-15">
           <h2 className="text-lg mb-3">Product</h2>
           <ul className="space-y-2 text-sm text-gray-600">
             <li className="hover:text-black cursor-pointer">Home</li>
@@ -31,8 +31,8 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="ml-10">
-          <h2 className="font-semibold text-lg mb-3">Company</h2>
+        <div className="lg:ml-10">
+          <h2 className=" text-lg mb-3">Company</h2>
           <ul className="space-y-2 text-sm text-gray-600">
             <li className="hover:text-black cursor-pointer">About Us</li>
             <li className="hover:text-black cursor-pointer">Contact</li>
@@ -40,8 +40,8 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="ml-20">
-          <h2 className="font-semibold text-lg mb-3">Legal</h2>
+        <div className="lg:ml-20">
+          <h2 className="text-lg mb-3">Legal</h2>
           <ul className="space-y-2 text-sm text-gray-600 mb-4">
             <li className="hover:text-black cursor-pointer">Privacy Policy</li>
             <li className="hover:text-black cursor-pointer">

@@ -1,15 +1,15 @@
 import React from 'react'
-import ContactHero from '../components/contact/ContactHero'
 import ContactMap from '../components/contact/ContactMap'
 import ContactForm from '../components/contact/ContactForm'
 import Waitlist from '../components/home/Waitlist'
+import ShopHero from '../components/shop/ShopHero'
 
 const Contact = () => {
   return (
   <>
   
   
-  <ContactHero/>
+  <ShopHero tittle="Contact Us"/>
   <ContactMap/>
   <ContactForm/>
   <Waitlist/>

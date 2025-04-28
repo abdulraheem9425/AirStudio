@@ -9,9 +9,9 @@ import {
 
 const ContactForm = () => {
   return (
-    <div className="grid grid-cols-12 py-5 ml-7 px-4 sm:px-6">
-      <div className="col-span-12 lg:col-span-4 ml-8 lg:p-20 sm:w-fit rounded-lg border border-gray-200 mt-10">
-        <div className="flex items-center gap-3 mb-5 mt-5">
+    <div className="grid grid-cols-12 py-5 ml-7 px-4 sm:px-6 ">
+      <div className="col-span-12 lg:col-span-4 ml-8 lg:p-15 sm:w-fit rounded-lg border border-gray-200 mt-10 h-110 ">
+        <div className="flex items-center gap-3 mb-5 mt-5   ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -57,8 +57,8 @@ const ContactForm = () => {
         </div>
       </div>
 
-      <div className="col-span-12 lg:col-span-7  bg-white lg:px-15 w-200 px-4 sm:px-6  border border-gray-200  mt-9 rounded-lg">
-        <h2 className="text-blue-600 text-3xl font-semibold  p-10 px-5 ">
+      <div className="col-span-12 lg:col-span-8   bg-white w-fit   lg:px-15  px-4 lg:w-210 relative right-10    border border-gray-200  mt-9 rounded-lg">
+        <h2 className="text-blue-600 text-3xl font-semibold  p-10 px-1 ">
           Get In Touch
         </h2>
 

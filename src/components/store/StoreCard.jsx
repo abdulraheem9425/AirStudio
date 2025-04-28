@@ -19,11 +19,14 @@ const StoreCard = () => {
     { img: "/assets/images/store/box.png", name: "ABC" },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:px-10 lg:px-25       sm:py-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:px-10 lg:px-25      sm:py-10">
       {products.map((product, index) => (
         <div
           key={index}
-         className="flex flex-col items-center p-6 lg:   h-80   mt-6    rounded-4xl    border  border-gray-300 shadow-xl   "
+         className="flex flex-col items-center p-6 lg:   h-80   mt-6    rounded-4xl     "
+         style={{
+          boxShadow: "4px 5px  5px 6px rgba(10, 0, 1, 0.2)",
+        }}
         >
           <img
             src={product.img}
