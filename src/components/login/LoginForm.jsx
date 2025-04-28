@@ -9,7 +9,7 @@ const LoginForm = () => {
         </h2>
   
     <div className="min-h flex items-center   justify-center  mb-10">
-      <div className="w-full max-w-2xl  shadow-sm rounded-md p-20 py-15">
+      <div className="w-full max-w-2xl  border border-gray-300 rounded-md p-20 py-20">
       
 
         <form className="space-y-5">

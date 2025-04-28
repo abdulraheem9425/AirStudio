@@ -2,7 +2,7 @@ import React from 'react';
 
 export const MessageComponent = () => {
   return (
-    <div className="px-4 sm:px-8 lg:px-24 pb-10 pt-10 shadow-md">
+    <div className="px-4 sm:px-8 lg:px-24 pb-10 pt-10 ">
       <button 
         className="bg-blue-600 p-2 px-8 text-white mb-2 rounded-full" 
         aria-label="Go back"

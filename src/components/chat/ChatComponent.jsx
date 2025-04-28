@@ -5,12 +5,12 @@ const ChatComponent = () => {
   return (
     <>
       <button 
-        className="bg-blue-600 p-2 px-8 text-white mb-4 rounded-full ml-4 sm:ml-8 lg:ml-43 mt-6" 
+        className="bg-blue-600 p-2 px-8 text-white mb-4 rounded-full ml-4 sm:ml-8 lg:ml-26 mt-6" 
       >
         Back
       </button>
 
-      <div className="max-w-5xl mx-auto  mt-2 shadow-md flex flex-col gap-3 mb-10">
+      <div className="max-w-6xl mx-auto  mt-2 shadow-md flex flex-col gap-3 mb-10">
         <div className="rounded-sm h-10 bg-gray-100  shadow-sm flex items-center px-2 max-w-full ">
           <h4 className="font-semibold  text-lg"  >Chat</h4>
         </div>

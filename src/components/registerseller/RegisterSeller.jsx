@@ -8,7 +8,7 @@ const RegisterSeller = () => {
         Register As Seller
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-6xl shadow-sm rounded-md p-20  py-25 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-6xl border border-gray-300 rounded-md p-20  py-25 px-25 ">
         <form className="grid grid-cols-1 gap-4">
           <div>
             <label className="block text-lg mb-1">First Name</label>

@@ -63,7 +63,7 @@ function AccountEditForm() {
         </div>
 
         <div className="pt-4 px-5">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded lg:relative left-10/12 rounded-full px-8" type="submit">Update</button>
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded lg:relative left-10/12 rounded-full px-8" type="submit" >Update</button>
         </div>
       </div>
     </div>

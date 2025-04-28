@@ -7,8 +7,8 @@ const RegisterForm = () => {
             <h2 className='text-center text-blue-700 font-bold text-3xl mb-6 mt-5'>Register</h2>
 
 
-    <div className='flex flex-col   max-w-2xl  mt-6  mb-20 rounded-sm shadow-sm  min-h-screen px-11 sm: mx-auto '>
-      <div className='w-full max-w-xl p-8 rounded-lg  md:grid-flow-col '>
+    <div className='flex flex-col   max-w-2xl  mt-6  mb-20 rounded-sm border  border-gray-300 min-h-screen px-11 sm: mx-auto '>
+      <div className='w-full max-w-xl p-10 rounded-lg  md:grid-flow-col '>
 
         <form className='space-y-5'>
           <div>

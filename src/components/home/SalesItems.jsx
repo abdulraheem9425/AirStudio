@@ -28,7 +28,7 @@ const SalesItems = () => {
     <div className="bg-white py-12 px-6 md:px-10 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-4xl  text-blue-800 mb-2 ">Sales Items</h2>
+          <h2 className="text-2xl md:text-4xl  text-blue-600 mb-2 ">Sales Items</h2>
           <p className="text-gray-500 md:text-xl tracking-widest ">
             Explore our diverse collection of fashion and digital products
           </p>
