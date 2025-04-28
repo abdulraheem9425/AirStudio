@@ -8,7 +8,7 @@ const RegisterSeller = () => {
         Register As Seller
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-4xl shadow-sm rounded-lg p-7  py-25 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-6xl shadow-sm rounded-md p-20  py-25 ">
         <form className="grid grid-cols-1 gap-4">
           <div>
             <label className="block text-lg mb-1">First Name</label>
@@ -96,7 +96,7 @@ const RegisterSeller = () => {
           </div>
 
           <div className="w-full flex justify-center mt-4">
-            <button className="bg-amber-500 px-17 text-white text-lg lg:relative top-20 right-55 rounded-full py-2">
+            <button className="bg-amber-500 px-10 text-white text-lg  lg:relative top-20 right-55 rounded-full py-2 px-15 ">
               Register
             </button>
           </div>

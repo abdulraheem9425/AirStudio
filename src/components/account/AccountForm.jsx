@@ -4,14 +4,14 @@ import {  ChevronDown  } from "lucide-react";
 
 function AccountEditForm() {
   return (
-    <div className="max-w-3xl  mx-auto p-6 mt-20">
-      <div className="shadow-md max-w-3xl mb-5 rounded-xl px-10 p-3 font-medium flex items-center justify-between">
+    <div className="max-w-3xl  mx-auto p-6 mt-8">
+      <div className="border border-gray-300 rounded-md max-w-3xl mb-5 px-10 p-3 font-medium flex items-center justify-between">
   <span>1.</span>
   <span className="ml-4  text-md  flex-1">Edit your account information</span>
-  <ChevronDown size={20} />
+  <ChevronDown size={20} className="lg: relative left-6" />
 </div>
 
-      <div className="bg-white rounded-xl shadow-md  max-w-3xl p-6 space-y-6">
+      <div className="bg-white rounded-md border border-gray-300  max-w-3xl p-6 space-y-6">
      
      
         <div>
@@ -63,7 +63,7 @@ function AccountEditForm() {
         </div>
 
         <div className="pt-4">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded" type="submit">Update</button>
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded lg:relative left-10/12 rounded-full px-8" type="submit">Update</button>
         </div>
       </div>
     </div>

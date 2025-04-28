@@ -22,7 +22,7 @@ const DeatailCard2 = () => {
   ];
 
   return (
-    <div className="bg-white py-12 px-6 md:px-10 lg:px-20">
+    <div className="bg-white py-12 px-6 md:px-10 lg:h-150 ">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-center items-center mb-8 flex-wrap gap-4">
           <div>

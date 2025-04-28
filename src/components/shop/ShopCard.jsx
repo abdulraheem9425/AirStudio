@@ -52,11 +52,11 @@ const ShopCard = () => {
 
   return (
     <div className="px-4 md:px-10 lg:px-20 py-12 bg-white">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         <div className="lg:col-span-3">
-          <div className="flex flex-col  p-4 rounded-xl ">
+          <div className="flex flex-col  p-4 rounded-xl mr- ">
             <div className="flex justify-between items-center">
-              <h1 className="text-xl font-semibold">Product Categories</h1>
+              <h1 className="text-xl f">Product Categories</h1>
               <ChevronUp size={20} />
             </div>
             <ul className="mt-4 space-y-2 text-gray-700 font-medium">

@@ -10,11 +10,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full bg-white shadow-md text-gray-600">
+    <div className="w-full bg-white  text-gray-600">
       <div className="flex justify-between items-center h-20 px-4 sm:px-6 md:px-8">
-
-        <div className="w-32 sm:w-40  sm:mx-0">
-          <img src="/assets/images/logo.png" className="w-full" alt="Logo" />
+        <div className="w-30 sm:w-40 lg:ml-10   sm:mx-0">
+          <img src="/assets/images/logo.png" className="w-35" alt="Logo" />
         </div>
 
         <div className="md:hidden">
@@ -58,7 +57,7 @@ const Navbar = () => {
               isActive ? "text-black font-semibold" : "hover:text-black"
             }
           >
-            Contact
+            Contact Us
           </NavLink>
         </div>
 
@@ -140,7 +139,7 @@ const Navbar = () => {
             closeMenu();
           }}
         >
-          Contact
+          Contact Us
         </NavLink>
 
         <div className="flex items-right space-x-6 pt-2 border-t border-gray-200">
@@ -155,10 +154,7 @@ const Navbar = () => {
           </Link>
           <Link to="/register-seller" onClick={closeMenu}>
             <div className="flex items-center space-x-1">
-              <img
-                src="/assets/images/Group.png"
-                className="w-5 h-5 rounded"
-              />
+              <img src="/assets/images/Group.png" className="w-5 h-5 rounded" />
               <ChevronDown size={16} />
             </div>
           </Link>

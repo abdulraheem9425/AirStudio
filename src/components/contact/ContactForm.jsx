@@ -9,8 +9,8 @@ import {
 
 const ContactForm = () => {
   return (
-    <div className="grid grid-cols-12 py-10 px-4 sm:px-6">
-      <div className="col-span-12 lg:col-span-3 ml-8 lg:p-6 sm:w-fit rounded-lg shadow-sm mt-10">
+    <div className="grid grid-cols-12 py-5 ml-7 px-4 sm:px-6">
+      <div className="col-span-12 lg:col-span-4 ml-8 lg:p-20 sm:w-fit rounded-lg border border-gray-200 mt-10">
         <div className="flex items-center gap-3 mb-5 mt-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-3 mb-5">
+        <div className="flex col items-center gap-3 mb-5">
           <Globe className="text-blue-700 w-8 h-8 border rounded-full p-1" />
           <div className="text-gray-600">
             <p>yourname@email.com</p>
@@ -40,7 +40,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex items-start gap-3 mb-5">
+        <div className="flex col items-start gap-3 mb-5">
           <MapPin className="text-blue-700 w-8 h-8 border rounded-full p-1" />
           <div className="text-gray-600">
             <p>Address goes here,</p>
@@ -57,7 +57,7 @@ const ContactForm = () => {
         </div>
       </div>
 
-      <div className="col-span-12 lg:col-span-8  bg-white lg:px-5 px-4 sm:px-6  shadow-sm mt-9 rounded-lg">
+      <div className="col-span-12 lg:col-span-7  bg-white lg:px-15 w-200 px-4 sm:px-6  border border-gray-200  mt-9 rounded-lg">
         <h2 className="text-blue-600 text-3xl font-semibold  p-10 px-5 ">
           Get In Touch
         </h2>

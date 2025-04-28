@@ -3,11 +3,14 @@ import { Eye } from "lucide-react";
 
 const LoginForm = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4">
-      <div className="w-full max-w-xl  shadow-sm rounded-xl p-9 py-10">
-        <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">
+    <>
+            <h2 className="text-3xl font-bold text-center text-blue-600 mt-6 mb-6">
           Login
         </h2>
+  
+    <div className="min-h flex items-center   justify-center  mb-10">
+      <div className="w-full max-w-2xl  shadow-sm rounded-md p-20 py-15">
+      
 
         <form className="space-y-5">
           <div>
@@ -38,7 +41,7 @@ const LoginForm = () => {
               Forgot Password?
             </a>
           </div>
-<button className="w-40  sm:w-40 md:w-52 lg:w-50 bg-blue-600 text-white py-2  sm:mr-3 md:ml-6 lg:ml-40 rounded-full">
+<button className="w-40  sm:w-40 md:w-52 lg:w-35 bg-blue-600 text-white py-2  sm:mr-3 md:ml-6 lg:ml-45  rounded-full">
   Login
 </button>
 
@@ -51,6 +54,7 @@ const LoginForm = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 

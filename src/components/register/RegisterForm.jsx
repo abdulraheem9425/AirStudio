@@ -3,9 +3,12 @@ import { ChevronDown } from "lucide-react";
 
 const RegisterForm = () => {
   return (
-    <div className='flex flex-col   max-w-2xl  mt-6  mb-20 rounded-xl shadow-sm  min-h-screen px-11 sm: mx-auto '>
+    <>
+            <h2 className='text-center text-blue-700 font-bold text-3xl mb-6 mt-5'>Register</h2>
+
+
+    <div className='flex flex-col   max-w-2xl  mt-6  mb-20 rounded-sm shadow-sm  min-h-screen px-11 sm: mx-auto '>
       <div className='w-full max-w-xl p-8 rounded-lg  md:grid-flow-col '>
-        <h2 className='text-center text-blue-700 font-bold text-3xl mb-6'>Register</h2>
 
         <form className='space-y-5'>
           <div>
@@ -59,7 +62,7 @@ const RegisterForm = () => {
           <div className='text-center'>
             <button
               type="submit"
-               className="w-50 bg-blue-600 hover:bg-blue-700  text-white py-2 rounded-full font-semibold sm: w-2xl"
+               className="w-40 bg-blue-600 hover:bg-blue-700  text-white py-2 rounded-full font-semibold sm: w-2xl"
             >
               REGISTER
             </button>
@@ -67,7 +70,9 @@ const RegisterForm = () => {
         </form>
       </div>
     </div>
+    </>
   )
+
 }
 
 export default RegisterForm;

@@ -2,7 +2,7 @@ import React from "react";
 
 const DetailHero = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-12 mt-5 gap-6 px-4 lg:px-10">
+    <div className="grid grid-cols-1 lg:grid-cols-12 mt-5 gap-6 px-4 lg:px-10 mt-15">
       <div className="lg:col-span-5 flex flex-col lg:flex-row gap-4 items-center lg:items-start">
       <div className="flex flex-row lg:flex-col gap-3 overflow-auto scrollbar-hide">
   <img src="/assets/images/detail1.png" className="w-32 h-20 lg:w-40 lg:h-22 rounded-lg hover:border-2 snap-center" alt="Thumbnail 1" />
@@ -36,16 +36,16 @@ const DetailHero = () => {
         <div className="flex items-center gap-3 flex-wrap">
           <span className="text-2xl font-semibold text-orange-400">$16.95</span>
           <span className="text-2xl text-gray-400 line-through">$18.00</span>
-          <span className="bg-yellow-400 text-sm px-3 py-1 rounded-full">20% OFF</span>
+          <span className="bg-yellow-400 text-sm px-3 text-white py-1 rounded-full">20% OFF</span>
         </div>
 
         <div className="flex items-center gap-3">
-          <div className="bg-black text-white w-9 h-8 flex items-center justify-center rounded-lg text-sm font-semibold">20</div>
+          <div className="bg-black text-white w-8 h-6 flex items-center justify-center  text-sm font-semibold">20</div>
           <span className="text-sm font-medium">People are viewing this right now</span>
         </div>
 
         <div className="border border-orange-400 lg:p-4 rounded-md w-full max-w-xs sm:p-5">
-          <p className="font-semibold text-sm">HURRY UP! SALE ENDS IN:</p>
+          <p className="font-semibold text-sm text-center">HURRY UP! SALE ENDS IN:</p>
           <div className="flex gap-2 mt-1 text-orange-500 font-semibold flex-wrap">
             <span>72 Days</span> : <span>1 Hour</span> : <span>15 Mins</span> : <span>10 Secs</span>
           </div>
@@ -54,10 +54,10 @@ const DetailHero = () => {
         <div>
           <h5 className="mb-2">Color: <strong>Beige</strong></h5>
           <div className="flex gap-3">
-            <button className="w-10 h-10 rounded-full bg-gray-100 border hover:border-black" />
-            <button className="w-10 h-10 rounded-full bg-gray-200 border hover:border-black" />
-            <button className="w-10 h-10 rounded-full bg-gray-300 border hover:border-black" />
-            <button className="w-10 h-10 rounded-full bg-gray-400 border hover:border-black" />
+            <button className="w-8 h-8 rounded-full bg-gray-100  border" />
+            <button className="w-5 h-5 rounded-full bg-gray-200  mt-2" />
+            <button className="w-5 h-5 rounded-full bg-gray-300 mt-2" />
+            <button className="w-5 h-5 rounded-full bg-gray-400  mt-2" />
           </div>
         </div>
 
@@ -67,16 +67,16 @@ const DetailHero = () => {
             <span className="text-sm lg:mr-25 underline">Find your size</span>
           </div>
           <div className="flex gap-3 flex-wrap">
-  <button className="w-10 h-10 border border-gray-300 rounded hover:bg-black hover:text-white">S</button>
-  <button className="w-10 h-10 border border-gray-300 rounded hover:bg-black hover:text-white">M</button>
-  <button className="w-10 h-10 border border-gray-300 rounded hover:bg-black hover:text-white">L</button>
-  <button className="w-10 h-10 border border-gray-300 rounded hover:bg-black hover:text-white">XL</button>
+  <button className="w-8 h-9 border border-gray-300  hover:bg-black hover:text-white">S</button>
+  <button className="w-8 h-9 border border-gray-300  hover:bg-black hover:text-white">M</button>
+  <button className="w-8 h-9 border border-gray-300  hover:bg-black hover:text-white">L</button>
+  <button className="w-8 h-9 border border-gray-300  hover:bg-black hover:text-white">XL</button>
 </div>
 
         </div>
 
         <div>
-          <h5 className="mb-2">Quantity:</h5>
+          <h5 className="mb-1 font-bold">Quantity:</h5>
           <div className="flex items-center justify-between bg-gray-200 w-32 rounded px-3 py-2 mx-auto sm:mx-0">
             <img src="/assets/images/minus.png" alt="Minus" className="h-4 w-4" />
             <span className="font-medium">1</span>
@@ -89,7 +89,7 @@ const DetailHero = () => {
           </button>
           <div className="flex gap-2">
             <img src="/assets/images/Link.png" alt="Link" className="w-7 h-7" />
-            <img src="/assets/images/Icon.png" alt="Icon" className="w-7 h-7" />
+            <img src="/assets/images/Icon.png" alt="Icon" className="w-7 h-7 " />
           </div>
         </div>
 
@@ -98,7 +98,7 @@ const DetailHero = () => {
         </button>
         <a href="#" className="underline text-sm text-center">More payment options</a>
 
-        <div className="flex flex-wrap gap-10 text-sm underline mt-2">
+        <div className="flex flex-wrap gap-10 text-sm  mt-2">
           <span className="cursor-pointer flex items-center">
             <img src="/assets/images/compare.png" alt="" className="h-4 mr-2" />
             Compare color

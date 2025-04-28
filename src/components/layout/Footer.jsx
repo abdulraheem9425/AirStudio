@@ -5,8 +5,8 @@ import { FaFacebook, FaLinkedin, FaDribbble } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-gray-700 px-6 md:px-10 py-12">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+    <footer className="bg-white text-gray-700 px-6 md:px- py-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 lg:relative left-8">
         <div>
           <img
             src="/assets/images/footer.png"
@@ -14,14 +14,14 @@ const Footer = () => {
             className="w-30 mb-4"
           />
           <p className="text-sm text-gray-500 leading-relaxed">
-            A comprehensive e-commerce platform tailored for small and
-            medium-sized businesses in Saudi Arabia, offering seamless solutions
+            A comprehensive e-commerce <br/> platform tailored for small and<br/>
+            medium-sized businesses in Saudi <br/>Arabia, offering seamless solutions<br/>
             for fashion and digital products.
           </p>
         </div>
 
-        <div>
-          <h2 className="font-semibold text-lg mb-3">Product</h2>
+        <div className="ml-10">
+          <h2 className="text-lg mb-3">Product</h2>
           <ul className="space-y-2 text-sm text-gray-600">
             <li className="hover:text-black cursor-pointer">Home</li>
             <li className="hover:text-black cursor-pointer">New In</li>
@@ -31,7 +31,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="ml-10">
           <h2 className="font-semibold text-lg mb-3">Company</h2>
           <ul className="space-y-2 text-sm text-gray-600">
             <li className="hover:text-black cursor-pointer">About Us</li>
@@ -40,7 +40,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="ml-20">
           <h2 className="font-semibold text-lg mb-3">Legal</h2>
           <ul className="space-y-2 text-sm text-gray-600 mb-4">
             <li className="hover:text-black cursor-pointer">Privacy Policy</li>
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center text-xs text-gray-400 mt-10"  >
+      <div className="text-center text-xs text-gray-400 mt-10 lg:relative top-8"  >
         © AiRStudio, 2025 | All Rights Reserved.
       </div>
     </footer>

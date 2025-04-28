@@ -10,7 +10,7 @@ const ChatComponent = () => {
         Back
       </button>
 
-      <div className="max-w-5xl mx-auto  mt-2 shadow-xl flex flex-col gap-3">
+      <div className="max-w-5xl mx-auto  mt-2 shadow-md flex flex-col gap-3 mb-10">
         <div className="rounded-sm h-10 bg-gray-100  shadow-sm flex items-center px-2 max-w-full ">
           <h4 className="font-semibold  text-lg"  >Chat</h4>
         </div>
