@@ -50,7 +50,7 @@ const DeatailCard2 = () => {
                 <h3 className="text-lg font-medium text-gray-900 lg:ml-2">
                   {product.name}
                 </h3>
-                <Heart className="text-gray-400 w-5 h-5 cursor-pointer lg:mr-6" />
+                <Heart className="text-gray-400 w-6  h-8 cursor-pointer rounded-full bg-gray-200   mr-5" />
               </div>
 
               <div className="flex justify-between items-center">

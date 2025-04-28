@@ -82,7 +82,7 @@ const ShopCard = () => {
               <div className="px-4 py-3">
                 <div className="flex justify-between items-start">
                   <h3 className="text-base font-medium text-gray-900">{product.name}</h3>
-                  <Heart className="text-gray-400 w-5 h-5 cursor-pointer" />
+                <Heart className="text-gray-400 w-6  h-8 cursor-pointer rounded-full bg-gray-200  " />
                 </div>
                 <div className="flex justify-between items-center mt-3">
                   <p className="text-blue-500 text-lg font-semibold">${product.price}</p>

@@ -192,7 +192,7 @@ const DetailHero = () => {
 
         <div className="flex flex-col lg:flex-row lg:w-170 gap-4 mt-4">
           <div className="p-4 rounded-md text-center w-full lg:w-1/2 shadow-sm">
-            <img
+            <img  
               src="/assets/images/ship.png"
               alt="Shipping"
               className="w-10 h-10 mx-auto mb-2"

@@ -10,7 +10,7 @@ export const MessageComponent = () => {
         Back
       </button>
 
-      <div className="flex items-center justify-between border border-gray-300 p-6 bg-white rounded-md">
+      <div className="flex items-center justify-between border border-gray-300 p-3 bg-white rounded-md">
         <div className="flex items-center gap-4">
           <img 
             src="/assets/images/Doe.png" 
