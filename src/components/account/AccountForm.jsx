@@ -33,32 +33,32 @@ function AccountEditForm() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium">First Name</label>
-            <input className="w-full border rounded px-3 py-2" defaultValue="Elana" />
+            <input className="w-full border border-gray-200 rounded px-3 py-2" defaultValue="Elana" />
           </div>
           <div>
             <label className="block text-sm font-medium">Last Name</label>
-            <input className="w-full border rounded px-3 py-2" defaultValue="Duffy" />
+            <input className="w-full border border-gray-300 rounded px-3 py-2" defaultValue="Duffy" />
           </div>
         </div>
 
         <div>
           <label className="block text-sm font-medium">Email Address</label>
-          <input type="email" className="w-full border rounded px-3 py-2" defaultValue="canyobg@mailinator.com" />
+          <input type="email" className="w-full border border-gray-300 rounded px-3 py-2" defaultValue="canyobg@mailinator.com" />
         </div>
 
         <div>
           <label className="block text-sm font-medium">Password</label>
-          <input type="password" className="w-full border rounded px-3 py-2" />
+          <input type="password" className="w-full border border-gray-300 rounded px-3 py-2" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium">Phone</label>
-            <input type="tel" className="w-full border rounded px-3 py-2" />
+            <input type="tel" className="w-full border border-gray-300 rounded px-3 py-2" />
           </div>
           <div>
             <label className="block text-sm font-medium">Date Of Birth</label>
-            <input placeholder="dd-mm-yyyy" type="date" className="w-full border rounded px-3 py-2" />
+            <input placeholder="dd-mm-yyyy" type="date" className="w-full border border-gray-300 rounded px-3 py-2" />
           </div>
         </div>
 
