@@ -66,7 +66,7 @@ const Footer = () => {
                 aria-label="Dribbble"
                 className="text-gray-500 hover:text-black text-xl"
               >
-              <img src="/public/assets/images/x.png" className="w-5 h-5" alt="" />
+              <img src="/assets/images/x.png" className="w-5 h-5" alt="" />
               </a>
             </Link>
             <Link to="/account-edit">
