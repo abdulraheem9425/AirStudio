@@ -16,9 +16,10 @@ function TwoFactor() {
       </div>
 
       <div className=" rounded-md p-6  w-full text-center">
-        <button className="bg-blue-600 text-white px-25 py-1 rounded-full  flex">
+        <button className="  bg-blue-600 text-white text-sm py-1 lg: px-25 py-1 rounded-full  flex  ">
           @ Enable Two Factor <br /> Authentication
         </button>
+
       </div>
       
     </div>

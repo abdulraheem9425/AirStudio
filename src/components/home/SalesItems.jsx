@@ -28,8 +28,8 @@ const SalesItems = () => {
     <div className="bg-white py-12 px-6 md:px-10 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-semibold text-blue-800 mb-2 ">Sales Items</h2>
-          <p className="text-gray-600 md:text-lg">
+          <h2 className="text-2xl md:text-4xl  text-blue-800 mb-2 ">Sales Items</h2>
+          <p className="text-gray-500 md:text-xl tracking-widest ">
             Explore our diverse collection of fashion and digital products
           </p>
         </div>
@@ -38,7 +38,7 @@ const SalesItems = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-gray-50 p-3  rounded-lg text-center "
+              className="bg-gray-50 p-3  rounded-lg text-center ml-5 "
             >
               <img
                 src={item.img}
@@ -46,7 +46,7 @@ const SalesItems = () => {
                 className="w-24 h-24 mx-auto object-contain mb-4"
               />
               <h3 className=" flex font-bold text-gray-900 text-xl">{item.title}</h3>
-              <p className=" flex text-gray-600 text-sm">{item.desc}</p>
+              <p className=" flex text-gray-600 text-md">{item.desc}</p>
             </div>
           ))}
         </div>
