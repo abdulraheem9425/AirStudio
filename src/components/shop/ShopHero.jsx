@@ -14,7 +14,7 @@ const ShopHero = (props) => {
 
 <div className="col-span-12 lg:col-span-7  h-[500px] w-full">
 <h1 className='text-center mt-15 text-amber-400 font-bold text-4xl font-sans'> {props.tittle}</h1>
-<p className='text-center mt-10 lg:text-lg tracking-wider ml-6  text-gray-400'>Lorem Ipsum is simply dummy text of the printing and typesetting <br/>
+<p className='text-center mt-10 lg:text-lg tracking-wider ml-6  text-gray-600'>Lorem Ipsum is simply dummy text of the printing and typesetting <br/>
 industry. Lorem Ipsum has been the industry's standard dummy text eve<br/>
 since the 1500s, </p>
 <div className='sm:col-end-3 hidden lg:block absolute right-96  ' > 

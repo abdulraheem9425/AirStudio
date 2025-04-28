@@ -9,7 +9,7 @@ import {
 
 const ContactForm = () => {
   return (
-    <div className="grid grid-cols-12 py-5 ml-7 px-4 sm:px-6 ">
+    <div className="grid grid-cols-12 sm grid col-12 py-5 ml-7 px-4 sm:px-6 ">
       <div className="col-span-12 lg:col-span-4 ml-8 lg:p-15 sm:w-fit rounded-lg border border-gray-200 mt-10 h-110 ">
         <div className="flex items-center gap-3 mb-5 mt-5   ">
           <svg
